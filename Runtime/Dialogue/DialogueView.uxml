@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+
+    <ui:Style src="DialogueView.uss" />
+
+    <ui:VisualElement name="dialogue-root">
+
+        <ui:VisualElement name="dialogue-content">
+
+            <ui:Label
+                name="dialogue-speaker"
+                text="Speaker"
+            />
+
+            <ui:VisualElement
+                name="dialogue-text-viewport"
+                class="dialogue-text-viewport"
+            >
+                <ui:Label
+                    name="dialogue-text"
+                    class="dialogue-text"
+                />
+
+                <ui:Label
+                    name="dialogue-measure-text"
+                    class="dialogue-text dialogue-text--measure"
+                />
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <ui:Label
+            name="dialogue-continue"
+            class="dialogue-continue"
+            text="▼"
+        />
+
+    </ui:VisualElement>
+
+</ui:UXML>
