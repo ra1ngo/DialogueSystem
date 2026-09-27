@@ -69,3 +69,15 @@ The view relies on the exact UXML element names and its serialized timing asset.
 Source algorithms were preserved; game input and localization boundaries were detached. Extracted scripts/assets have fresh GUIDs, with serialized references remapped inside the package. This is not an automatic migration of existing game scenes or serialized type identities.
 
 See `Documentation~/extraction-v1.md` for source comparison, validation and known behavior differences, and `Documentation~/deferred.md` for deliberately deferred issues. `audit.md` is the unchanged historical audit. No scenes, tests, SpeechBubble feature or game content are included in V1.
+
+## Validation
+
+Extraction V1 has passed real Unity 6000.5.6f1 import, prefab/asset checks, 33 Sandbox Play Mode checks and a Windows development build. See `Documentation~/sandbox-v1.md` for results, evidence and remaining limits. The adjacent Sandbox uses `"com.ra1ngo.dialogue-system": "file:../../DialogueSystem"` relative to its `Packages` directory.
+
+## License
+
+BSD Zero Clause License (0BSD). See `LICENSE.md`.
+
+## Development note
+
+DialogueSystem was created with the assistance of ChatGPT by OpenAI through an iterative, human-directed design and development process.

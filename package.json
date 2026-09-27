@@ -1,6 +1,7 @@
 {
   "name": "com.ra1ngo.dialogue-system",
   "version": "0.1.0",
+  "license": "0BSD",
   "displayName": "Dialogue System",
   "description": "UI Toolkit dialogue playback and reusable rich text, pagination and typewriter runtime. Extraction V1 baseline.",
   "unity": "6000.5",
